@@ -487,7 +487,7 @@ packages:
 
     "Winter Han <winterland1989@gmail.com> @winterland1989":
         - if
-        - tcp-streams < 0 # via test-framework
+        - tcp-streams
         - tcp-streams-openssl < 0 # via HsOpenSSL-x509-system
         - wire-streams
         - binary-parsers
@@ -707,7 +707,7 @@ packages:
         # profiteur # aeson-1.4.0.0
         - psqueues
         - websockets
-        - websockets-snap < 0 # via io-streams
+        - websockets-snap
         - hakyll < 0 # jaspervdj/hakyll#691
 
     "Sibi Prabakaran <sibi@psibi.in> @psibi":
@@ -2424,7 +2424,7 @@ packages:
     "Andrew Cowie <andrew@operationaldynamics.com> @afcowie":
         - chronologique
         - http-common
-        - http-streams < 0 # via io-streams & openssl-streams
+        - http-streams
         - locators
         - core-data
         - core-program
@@ -4617,7 +4617,7 @@ packages:
         - msgpack-aeson < 0 # via msgpack
         - mwc-probability-transition < 0 # via logging-effect
         - mysql-haskell < 0 # via memory-0.15.0
-        - mysql-haskell-nem < 0 # via io-streams
+        - mysql-haskell-nem
         - mysql-haskell-nem < 0 # via mysql-haskell
         - named < 0 # via base-4.13.0.0
         - naqsha < 0 # via base-4.13.0.0
@@ -4798,7 +4798,7 @@ packages:
         - unbound-generics < 0 # MonadFail
         - union < 0 # via base-4.13.0.0
         - universe-dependent-sum < 0 # via some
-        - unliftio-streams < 0 # via io-streams
+        - unliftio-streams
         - users-postgresql-simple < 0 # via postgresql-simple
         - users-test < 0 # via users
         - wai-cli < 0 # via network-3.1.1.0
@@ -4815,7 +4815,7 @@ packages:
         - wild-bind < 0 # via base-4.13.0.0
         - wild-bind-x11 < 0 # via base-4.13.0.0
         - winery < 0 # via fast-builder
-        - wire-streams < 0 # via io-streams
+        - wire-streams
         - witherable < 0 # via monoidal-containers
         - wl-pprint-text < 0 # via base-compat-0.11.0
         - wordpress-auth < 0 # via http-types
